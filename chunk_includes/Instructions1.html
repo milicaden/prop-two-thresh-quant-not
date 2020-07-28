@@ -1,0 +1,104 @@
+<style type="text/css">
+
+  p {text-align: justify;
+    font-family:   "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+  
+  h2 {color: #3FB8AF;
+  font-family:   "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+  
+  .settings {
+    display: table;
+    width: 80%;
+
+  }
+  .settings .row {
+    display: table-row;
+  }
+  .settings .question,
+  .settings .switch {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    text-align: right;
+  }
+  .settings .question {
+    width: 600px;
+    font-size: 20px;
+  }
+
+  .cmn-toggle {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;s
+  }
+  .cmn-toggle + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+  }
+
+  input.cmn-toggle-round + label {
+  padding: 1px;
+  width: 50px;
+  height: 25px;
+  background-color: #dddddd;
+  border-radius: 25px;
+}
+input.cmn-toggle-round + label:before,
+input.cmn-toggle-round + label:after {
+  display: block;
+  position: absolute;
+  top: 0.5px;
+  left: 0.5px;
+  bottom: 0.5px;
+  content: "";
+}
+input.cmn-toggle-round + label:before {
+  right: 1px;
+  background-color: #f1f1f1;  
+  background-color: #dbd9d9;      
+  border-radius: 25px;
+  transition: background 0.4s;
+}
+input.cmn-toggle-round + label:after {
+  width: 25px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: margin 0.4s;
+}
+input.cmn-toggle-round:checked + label:before {
+  background-color: #3FB8AF;
+}
+input.cmn-toggle-round:checked + label:after {
+  margin-left: 25px;
+}
+
+
+</style>
+
+<div style="width: 40em;">
+<center>
+
+</style>
+
+
+    <h2>
+        Instructions
+    </h2>
+
+  <p>
+In this task, you will need to decide whether a sentence is true or false. You will base your decision on the information provided by two background sentences. Click on the button below to see some examples.
+</p>
+</center>
+  <div class="settings">
+    <div class="row">
+      <div class="question"> I have read and understood the instructions.  </div>
+      <div class="switch">
+        <input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round obligatory" type="checkbox">
+        <label for="cmn-toggle-1"></label>
+      </div>
+    </div>
+

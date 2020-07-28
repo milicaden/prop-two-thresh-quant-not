@@ -1,0 +1,43 @@
+
+.error-text {
+    color: red;
+    font-weight: bold;
+}
+
+.continue-link
+{
+  display: inline-block;
+  margin-left: 40%;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-family:  'Bitter',serif;
+  line-height: 1.5;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 25px;
+  
+  color: #3FB8AF;
+  background: rgba(0,0,0,0);
+  border: solid 5px #3FB8AF;
+  text-decoration: none;
+
+}
+
+.continue-link:hover {
+  display: inline-block;
+  margin-left: 40%;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-family: "Bitter",serif;
+  line-height: 1.5;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 25px;
+  
+  border-color: #3FB8AF;
+  color: #3FB8AF;
+  text-decoration: none;
+  
+}
+
+

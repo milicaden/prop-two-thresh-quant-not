@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<style>
+
+h3 {font-family:  'Bitter',serif;
+  color: #3FB8AF;
+  font-size: 1.3em}
+
+p {color: black;
+    font-family:  'Bitter',serif;
+    font-size: 1.1em;
+    width: 720px;}
+
+input{color: black;
+  font-family:  'Bitter',serif;
+  font-size: 1em}
+
+
+fieldset {
+    border: solid 0px;
+    margin-bottom:10px;
+    width: 720px}
+
+label {
+  display: inline-block;
+  vertical-align: top;
+  color: #3FB8AF;
+  font-family:  'Bitter',serif;
+  font-size: 1em;
+  padding-right: 1cm}
+
+
+textarea{
+  width:725px;
+  height:50px;
+  border: solid 1px #3FB8AF;
+  font-family:  'Bitter',serif;
+  font-size: 1em
+}
+
+</style>
+
+<div>
+
+<p><h3> Done! </h3></p>
+<p>You have completed the experiment.
+Please fill in the small questionnaire below before exiting.</p>
+
+
+<!--
+<fieldset>
+<label for ="year"> Year of birth: </label>
+  <input type="text" name="year" class="obligatory"/>
+</fieldset> <br>
+
+<fieldset>
+<label for ="sex"> Biological sex: </label>
+  <input name="sex" type="radio" value="male" class="obligatory" id="csexmale" /> <label for="csexmale"> <font color='black'> Male </font></label>
+  <input name="sex" type="radio" value="female" id="csexfemale"/> <label for="csexfemale" > <font color='black'> Female </font></label>
+</fieldset> <br>
+
+  -->
+  
+<fieldset>
+<label for ="language">Native language:</label>
+<input type="text" name="language" placeholder="Your language" class="obligatory" size='30' />
+</fieldset> <br>
+
+<fieldset>
+ <label for='mturk'> Prolific ID: </label>
+<input name="ProlificID" type="text" size="30" class="obligatory" />
+</fieldset> <br>
+
+
+<label for="comment"> Comments or suggestions.... </label> <br>
+<textarea name="comment" placeholder="Optional comments"></textarea>
+
+<p>
+<b>  Now you need to click on the button below to transmit your responses and to access the Prolific completion link.
+</b> </p>
+
+</div>
+  </body>
+</html>

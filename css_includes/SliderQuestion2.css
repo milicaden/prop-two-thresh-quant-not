@@ -1,0 +1,41 @@
+.error-text {
+    color: red;
+    font-weight: bold;
+}
+
+.button {
+    width: 7em;
+    height: 1.5em;
+    background: #26396B;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    border-radius: 5px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.labels {
+    width: 550px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family:  'Bitter',serif;
+    font-weight: bold;
+    margin: 0 auto; /*    added by Milica to center this */
+}
+
+.slider
+{
+    margin: 0 auto;
+    /*    added by Milica to center this; */
+}
